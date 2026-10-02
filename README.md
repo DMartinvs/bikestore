@@ -144,6 +144,7 @@ Os principais benefícios são:
 - **Governança e segurança:** a combinação de armazenamento cloud e catálogo cria uma base para políticas de acesso, organização e rastreabilidade.
 - **Automação:** a arquitetura facilita a evolução de notebooks executados manualmente para pipelines agendados, monitorados e integrados a práticas de CI/CD.
 - **Crescimento sem redesenho completo:** caso a empresa passe a receber mais pedidos, clientes, lojas ou novas fontes de dados, a arquitetura pode evoluir preservando o padrão Bronze → Silver → Gold.
+- **Otimização e controle de custos:** a cloud permite acompanhar e controlar os gastos de armazenamento e processamento de acordo com o consumo dos recursos. Diferentemente de uma infraestrutura dimensionada permanentemente para atender aos picos de demanda, recursos computacionais podem ser iniciados, dimensionados e encerrados conforme a necessidade. Entretanto, essa flexibilidade exige práticas de FinOps, como monitoramento de custos, definição de budgets e alertas, desligamento de clusters ociosos, escolha adequada do tamanho dos recursos, otimização dos jobs e adoção de políticas de retenção e ciclo de vida dos dados. Dessa forma, busca-se equilibrar desempenho, disponibilidade e custo, evitando desperdício de recursos financeiros.
 
 ### Benefício para o cenário de negócio
 
